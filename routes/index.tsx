@@ -65,6 +65,30 @@ export default function Home() {
               AND THE CAPACITY YOU'RE CAPABLE OF.
             </p>
           </div>
+
+          <div class="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 flex items-center space-x-3 sm:space-x-4 z-20">
+
+            <a href="https://www.instagram.com/nereustechnologies/" target="_blank" rel="noopener noreferrer" class="transition-transform hover:scale-110" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="text-white w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6">
+                <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3.25a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 1.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm5.75-.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z" />
+              </svg>
+            </a>
+
+            <a href="https://www.linkedin.com/company/nereus-technologies-pvt-ltd/" target="_blank" rel="noopener noreferrer" class="transition-transform hover:scale-110" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="text-white w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6">
+                <path d="M4.98 3.5a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5zM3 8.75h3.96V21H3V8.75zM9.75 8.75h3.78v1.67h.05a4.14 4.14 0 0 1 3.73-2.05c3.99 0 4.73 2.62 4.73 6.03V21h-3.96v-5.77c0-1.38-.02-3.16-1.93-3.16-1.94 0-2.24 1.51-2.24 3.06V21H9.75V8.75z" />
+              </svg>
+            </a>
+
+            <a href="mailto:info@nereustechnologies.com" class="transition-transform hover:scale-110" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="text-white w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6">
+                <path d="M2.25 4.5A2.25 2.25 0 0 1 4.5 2.25h15a2.25 2.25 0 0 1 2.25 2.25v15a2.25 2.25 0 0 1-2.25 2.25h-15A2.25 2.25 0 0 1 2.25 19.5v-15zm2.25.75v.513l7.5 4.737 7.5-4.737V5.25H4.5zm15 1.987-7.147 4.512a.75.75 0 0 1-.706 0L4.5 7.237V18.75h15V7.237z" />
+              </svg>
+            </a>
+          </div>
         </div>
       </main>
     </>
